@@ -11,7 +11,7 @@
 - Debe implementarse únicamente el método POST
 - Devolveremos un código de estado 201 y con la fecha y el mensaje
 - Deberá comprobarse que los datos son correctos, de forma que si salta un fallo deberemos recogerlo y devolver un código de error 5XX junto con la fecha, el mensaje y status:404
-## Crear una ruta :\user\{id}
+## Crear una ruta :\user\ {id}
 - Si lo recibimos por GET, mostraremos los datos de usuario
 - Si lo recibimos por el método PUT o PATCH, recibiremos un JSON, con los datos que se quieran modificar
 - Si lo recibimos por el método DELETE, cambiar el rol de usuario a bloqueado
